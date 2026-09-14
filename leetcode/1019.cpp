@@ -31,6 +31,5 @@ public:
             st.push({out[i],i});
         }
         return out1;
-        
     }
 };
