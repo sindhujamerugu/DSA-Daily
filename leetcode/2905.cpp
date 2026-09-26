@@ -25,7 +25,6 @@ public:
                 return {mx,i};
             }
         }
-    
     return {-1,-1};
         }
 };
