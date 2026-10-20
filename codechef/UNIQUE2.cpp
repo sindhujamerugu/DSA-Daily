@@ -1,7 +1,6 @@
 
 #include <bits/stdc++.h>
 using namespace std;
-
 int main() 
 {
 	// your code goes here
@@ -26,7 +25,6 @@ int main()
 	       nums.push_back(x);
 	       freq[x]=0;
 	    }
-	   
 	}
 	for(int y:nums)
 	{
