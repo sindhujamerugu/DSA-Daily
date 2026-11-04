@@ -35,9 +35,6 @@ int main()
 	         }
 	    }
 	    cout<<cnt2<<endl;
-
 	}
 	return 0;
-
-     
 }
