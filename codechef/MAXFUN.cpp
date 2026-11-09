@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int main() 
 {
 	// your code goes here
@@ -20,5 +19,4 @@ int main()
 	    cout<<2LL*(mx-mn)<<endl;
 	}
 	return 0;
-
 }
