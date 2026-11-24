@@ -2,27 +2,27 @@ class Solution {
 public:
     int maxLength(vector<int>& nums) 
     {
-     int n=nums.size();
-     long long out=0;
-    for(long long i=0;i<n;i++) 
-    {
-        long long pro=1;
-        int g=nums[i],l=nums[i];
-        for(long long j=i;j<n;j++)
+        int n=nums.size();
+        long long out=0;
+        for(long long i=0;i<n;i++)
         {
-            pro*=1LL*nums[j];
-            if(pro>25200)
+            long long g=nums[i],l=nums[i];
+            long long pro=1;
+            for(long long j=i;j<n;j++)
             {
+               pro*=nums[j];
+               if(pro>25200)
+               {
                 break;
-            }
-            g=__gcd(g,nums[j]);
-            l=(l*nums[j])/__gcd(l,nums[j]);
-            if(pro==1LL*(g*l))
-            {
-              out=max(out,j-i+1);
+               }
+               g=__gcd(g,1LL*nums[j]);
+               l=(l*1LL*nums[j])/__gcd(l,1LL*nums[j]);
+               if(pro==1LL*(g*l))
+               {
+                 out=max(out,j-i+1);
+               }
             }
         }
-    }
-    return out; 
+        return out;
     }
 };
