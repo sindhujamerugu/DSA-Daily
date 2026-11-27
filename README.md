@@ -4,9 +4,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0343-integer-break](https://github.com/sindhujamerugu/DSA-Daily/tree/master/0343-integer-break) |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/sindhujamerugu/DSA-Daily/tree/master/3723-maximize-sum-of-squares-of-digits) |
 ## Greedy
 |  |
 | ------- |
 | [3723-maximize-sum-of-squares-of-digits](https://github.com/sindhujamerugu/DSA-Daily/tree/master/3723-maximize-sum-of-squares-of-digits) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0343-integer-break](https://github.com/sindhujamerugu/DSA-Daily/tree/master/0343-integer-break) |
 <!---LeetCode Topics End-->
